@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC091A272BFFB81D0036EC83 /* Smart_BokashiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC091A262BFFB81D0036EC83 /* Smart_BokashiApp.swift */; };
+		DC091A2B2BFFB81F0036EC83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC091A2A2BFFB81F0036EC83 /* Assets.xcassets */; };
+		DC091A2E2BFFB81F0036EC83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC091A2D2BFFB81F0036EC83 /* Preview Assets.xcassets */; };
+		DC091A382BFFB8200036EC83 /* Smart_BokashiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC091A372BFFB8200036EC83 /* Smart_BokashiTests.swift */; };
+		DC091A422BFFB8200036EC83 /* Smart_BokashiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC091A412BFFB8200036EC83 /* Smart_BokashiUITests.swift */; };
+		DC091A442BFFB8200036EC83 /* Smart_BokashiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC091A432BFFB8200036EC83 /* Smart_BokashiUITestsLaunchTests.swift */; };
+		DC24A1142BFFE56C00DFA14E /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24A1132BFFE56C00DFA14E /* map.swift */; };
+		DCA467542C15FD7F00BB6656 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA467532C15FD7F00BB6656 /* BluetoothManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC091A342BFFB8200036EC83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC091A1B2BFFB81D0036EC83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC091A222BFFB81D0036EC83;
+			remoteInfo = "Smart Bokashi";
+		};
+		DC091A3E2BFFB8200036EC83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC091A1B2BFFB81D0036EC83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC091A222BFFB81D0036EC83;
+			remoteInfo = "Smart Bokashi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC091A232BFFB81D0036EC83 /* Smart Bokashi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Bokashi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC091A262BFFB81D0036EC83 /* Smart_BokashiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_BokashiApp.swift; sourceTree = "<group>"; };
+		DC091A2A2BFFB81F0036EC83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC091A2D2BFFB81F0036EC83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC091A332BFFB8200036EC83 /* Smart BokashiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart BokashiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC091A372BFFB8200036EC83 /* Smart_BokashiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_BokashiTests.swift; sourceTree = "<group>"; };
+		DC091A3D2BFFB8200036EC83 /* Smart BokashiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart BokashiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC091A412BFFB8200036EC83 /* Smart_BokashiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_BokashiUITests.swift; sourceTree = "<group>"; };
+		DC091A432BFFB8200036EC83 /* Smart_BokashiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_BokashiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC24A1132BFFE56C00DFA14E /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
+		DCA467532C15FD7F00BB6656 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC091A202BFFB81D0036EC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC091A302BFFB8200036EC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC091A3A2BFFB8200036EC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC091A1A2BFFB81D0036EC83 = {
+			isa = PBXGroup;
+			children = (
+				DC091A252BFFB81D0036EC83 /* Smart Bokashi */,
+				DC091A362BFFB8200036EC83 /* Smart BokashiTests */,
+				DC091A402BFFB8200036EC83 /* Smart BokashiUITests */,
+				DC091A242BFFB81D0036EC83 /* Products */,
+				DC091A502BFFBDF10036EC83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC091A242BFFB81D0036EC83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC091A232BFFB81D0036EC83 /* Smart Bokashi.app */,
+				DC091A332BFFB8200036EC83 /* Smart BokashiTests.xctest */,
+				DC091A3D2BFFB8200036EC83 /* Smart BokashiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC091A252BFFB81D0036EC83 /* Smart Bokashi */ = {
+			isa = PBXGroup;
+			children = (
+				DC091A262BFFB81D0036EC83 /* Smart_BokashiApp.swift */,
+				DC091A2A2BFFB81F0036EC83 /* Assets.xcassets */,
+				DC091A2C2BFFB81F0036EC83 /* Preview Content */,
+				DC24A1132BFFE56C00DFA14E /* map.swift */,
+				DCA467532C15FD7F00BB6656 /* BluetoothManager.swift */,
+			);
+			path = "Smart Bokashi";
+			sourceTree = "<group>";
+		};
+		DC091A2C2BFFB81F0036EC83 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC091A2D2BFFB81F0036EC83 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC091A362BFFB8200036EC83 /* Smart BokashiTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC091A372BFFB8200036EC83 /* Smart_BokashiTests.swift */,
+			);
+			path = "Smart BokashiTests";
+			sourceTree = "<group>";
+		};
+		DC091A402BFFB8200036EC83 /* Smart BokashiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC091A412BFFB8200036EC83 /* Smart_BokashiUITests.swift */,
+				DC091A432BFFB8200036EC83 /* Smart_BokashiUITestsLaunchTests.swift */,
+			);
+			path = "Smart BokashiUITests";
+			sourceTree = "<group>";
+		};
+		DC091A502BFFBDF10036EC83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC091A222BFFB81D0036EC83 /* Smart Bokashi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC091A472BFFB8200036EC83 /* Build configuration list for PBXNativeTarget "Smart Bokashi" */;
+			buildPhases = (
+				DC091A1F2BFFB81D0036EC83 /* Sources */,
+				DC091A202BFFB81D0036EC83 /* Frameworks */,
+				DC091A212BFFB81D0036EC83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Bokashi";
+			productName = "Smart Bokashi";
+			productReference = DC091A232BFFB81D0036EC83 /* Smart Bokashi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC091A322BFFB8200036EC83 /* Smart BokashiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC091A4A2BFFB8200036EC83 /* Build configuration list for PBXNativeTarget "Smart BokashiTests" */;
+			buildPhases = (
+				DC091A2F2BFFB8200036EC83 /* Sources */,
+				DC091A302BFFB8200036EC83 /* Frameworks */,
+				DC091A312BFFB8200036EC83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC091A352BFFB8200036EC83 /* PBXTargetDependency */,
+			);
+			name = "Smart BokashiTests";
+			productName = "Smart BokashiTests";
+			productReference = DC091A332BFFB8200036EC83 /* Smart BokashiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC091A3C2BFFB8200036EC83 /* Smart BokashiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC091A4D2BFFB8200036EC83 /* Build configuration list for PBXNativeTarget "Smart BokashiUITests" */;
+			buildPhases = (
+				DC091A392BFFB8200036EC83 /* Sources */,
+				DC091A3A2BFFB8200036EC83 /* Frameworks */,
+				DC091A3B2BFFB8200036EC83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC091A3F2BFFB8200036EC83 /* PBXTargetDependency */,
+			);
+			name = "Smart BokashiUITests";
+			productName = "Smart BokashiUITests";
+			productReference = DC091A3D2BFFB8200036EC83 /* Smart BokashiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC091A1B2BFFB81D0036EC83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DC091A222BFFB81D0036EC83 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DC091A322BFFB8200036EC83 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DC091A222BFFB81D0036EC83;
+					};
+					DC091A3C2BFFB8200036EC83 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DC091A222BFFB81D0036EC83;
+					};
+				};
+			};
+			buildConfigurationList = DC091A1E2BFFB81D0036EC83 /* Build configuration list for PBXProject "Smart Bokashi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC091A1A2BFFB81D0036EC83;
+			productRefGroup = DC091A242BFFB81D0036EC83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC091A222BFFB81D0036EC83 /* Smart Bokashi */,
+				DC091A322BFFB8200036EC83 /* Smart BokashiTests */,
+				DC091A3C2BFFB8200036EC83 /* Smart BokashiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC091A212BFFB81D0036EC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC091A2E2BFFB81F0036EC83 /* Preview Assets.xcassets in Resources */,
+				DC091A2B2BFFB81F0036EC83 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC091A312BFFB8200036EC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC091A3B2BFFB8200036EC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC091A1F2BFFB81D0036EC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA467542C15FD7F00BB6656 /* BluetoothManager.swift in Sources */,
+				DC24A1142BFFE56C00DFA14E /* map.swift in Sources */,
+				DC091A272BFFB81D0036EC83 /* Smart_BokashiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC091A2F2BFFB8200036EC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC091A382BFFB8200036EC83 /* Smart_BokashiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC091A392BFFB8200036EC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC091A442BFFB8200036EC83 /* Smart_BokashiUITestsLaunchTests.swift in Sources */,
+				DC091A422BFFB8200036EC83 /* Smart_BokashiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC091A352BFFB8200036EC83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC091A222BFFB81D0036EC83 /* Smart Bokashi */;
+			targetProxy = DC091A342BFFB8200036EC83 /* PBXContainerItemProxy */;
+		};
+		DC091A3F2BFFB8200036EC83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC091A222BFFB81D0036EC83 /* Smart Bokashi */;
+			targetProxy = DC091A3E2BFFB8200036EC83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC091A452BFFB8200036EC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC091A462BFFB8200036EC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC091A482BFFB8200036EC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart Bokashi/Preview Content\"";
+				DEVELOPMENT_TEAM = 38XV6D7J9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-Bokashi.Smart-Bokashi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC091A492BFFB8200036EC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart Bokashi/Preview Content\"";
+				DEVELOPMENT_TEAM = 38XV6D7J9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-Bokashi.Smart-Bokashi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC091A4B2BFFB8200036EC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-Bokashi.Smart-BokashiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Bokashi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart Bokashi";
+			};
+			name = Debug;
+		};
+		DC091A4C2BFFB8200036EC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-Bokashi.Smart-BokashiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Bokashi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart Bokashi";
+			};
+			name = Release;
+		};
+		DC091A4E2BFFB8200036EC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-Bokashi.Smart-BokashiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Bokashi";
+			};
+			name = Debug;
+		};
+		DC091A4F2BFFB8200036EC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Smart-Bokashi.Smart-BokashiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Bokashi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC091A1E2BFFB81D0036EC83 /* Build configuration list for PBXProject "Smart Bokashi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC091A452BFFB8200036EC83 /* Debug */,
+				DC091A462BFFB8200036EC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC091A472BFFB8200036EC83 /* Build configuration list for PBXNativeTarget "Smart Bokashi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC091A482BFFB8200036EC83 /* Debug */,
+				DC091A492BFFB8200036EC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC091A4A2BFFB8200036EC83 /* Build configuration list for PBXNativeTarget "Smart BokashiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC091A4B2BFFB8200036EC83 /* Debug */,
+				DC091A4C2BFFB8200036EC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC091A4D2BFFB8200036EC83 /* Build configuration list for PBXNativeTarget "Smart BokashiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC091A4E2BFFB8200036EC83 /* Debug */,
+				DC091A4F2BFFB8200036EC83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC091A1B2BFFB81D0036EC83 /* Project object */;
+}
